@@ -1,0 +1,49 @@
+# BasketVision repo: whitelist. Everything is ignored unless listed below.
+# Footage, crops and results of children never belong here.
+/*
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/game-review/
+!/basketball-poc/
+
+# ---- game-review: code and configs only
+/game-review/data/
+/game-review/**/node_modules/
+/game-review/**/dist/
+/game-review/pipeline/models/*.pt
+/game-review/**/__pycache__/
+/game-review/**/.venv/
+
+# ---- basketball-poc: scripts, README and a few small text results only
+/basketball-poc/*
+!/basketball-poc/README.md
+!/basketball-poc/scripts/
+!/basketball-poc/final/
+/basketball-poc/final/*
+!/basketball-poc/final/roster_final.json
+!/basketball-poc/final/clip1/
+!/basketball-poc/final/clip2/
+/basketball-poc/final/clip1/*
+/basketball-poc/final/clip2/*
+!/basketball-poc/final/clip1/report_final.txt
+!/basketball-poc/final/clip2/report_final.txt
+!/basketball-poc/round4/
+/basketball-poc/round4/*
+!/basketball-poc/round4/truth_by_eye.json
+
+# ---- everywhere
+*.bak-before-move
+*.bak-before-game-review
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.mp4
+*.webm
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.pt

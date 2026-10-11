@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd /Users/peter/Data/Claude/BasketVision/game-review/backend && exec /Users/peter/Data/Claude/BasketVision/basketball-poc/_work/venv/bin/python -I -m uvicorn app:app --port 8000"],
+      "port": 8000
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd /Users/peter/Data/Claude/BasketVision/game-review/frontend && exec pnpm exec vite --port 5173 --strictPort"],
+      "port": 5173
+    }
+  ]
+}

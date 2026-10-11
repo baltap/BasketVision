@@ -1,0 +1,38 @@
+number reads: kept 998, dropped by crowd guard 619 (38%)
+roster rule: 124 number reads dropped (number not on that team's roster)
+tracklets: 243 | non-players removed: 8 | split on colour change: 18 | split on number change: 8 | mixed: 9
+conflict resolution: {'trimmed overlap frames': 365, 'duplicate pairs (same person, two boxes)': 6}
+attached unnumbered pieces: 0 | attachments vetoed by the piece's own contradicting reads: 0
+
+detections in total: 17415
+  anchored by number        11492   66.0%
+  attached                      0    0.0%
+  non-player (ref/adult)     2065   11.9%
+  mixed / conflicting        1879   10.8%
+  unassigned                 1979   11.4%
+  named of PLAYER detections: 74.9%  (11492/15350)
+  unassigned pieces < 1 s    :  67 pieces,   231 detections (1.3%)
+  unassigned pieces 1 to 3 s :  39 pieces,   563 detections (3.2%)
+  unassigned pieces >= 3 s   :  37 pieces,  3064 detections (17.6%)
+  frames with a player assigned to two different people: 0
+
+players (team#number): named s | anchored s | attached s | pieces | first-last s
+  dark#8      136.5 |  136.5 |    0.0 |  18 |     1-180
+  light#24    119.0 |  119.0 |    0.0 |  12 |     0-176
+  light#9     108.4 |  108.4 |    0.0 |  10 |     0-180
+  light#15    107.3 |  107.3 |    0.0 |  14 |     0-180
+  dark#23      99.3 |   99.3 |    0.0 |  10 |     2-180
+  light#5      88.7 |   88.7 |    0.0 |   7 |    71-179
+  light#12     85.1 |   85.1 |    0.0 |   6 |    59-172
+  dark#17      70.8 |   70.8 |    0.0 |  11 |     4-180
+  dark#66      58.5 |   58.5 |    0.0 |   7 |    68-180
+  dark#41      57.0 |   57.0 |    0.0 |   8 |     0-108
+  light#26     54.9 |   54.9 |    0.0 |   4 |     0-61
+  dark#43      50.0 |   50.0 |    0.0 |   4 |     0-65
+  dark#10      48.9 |   48.9 |    0.0 |  11 |    65-180
+  light#6      40.1 |   40.1 |    0.0 |   9 |     0-68
+  light#7      15.1 |   15.1 |    0.0 |   1 |    95-110
+  light#8       5.2 |    5.2 |    0.0 |   2 |   127-151
+  light#21      4.4 |    4.4 |    0.0 |   2 |    38-65
+
+wrote /Users/peter/Data/Claude/basketball-poc/final/clip2/assign_final.json

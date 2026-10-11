@@ -1,0 +1,8 @@
+# ByteTrack, longer memory. Tuned for 30 fps: track_buffer 150 frames = 5 s memory.
+tracker_type: bytetrack
+track_high_thresh: 0.25
+track_low_thresh: 0.1
+new_track_thresh: 0.3
+track_buffer: 150
+match_thresh: 0.8
+fuse_score: True

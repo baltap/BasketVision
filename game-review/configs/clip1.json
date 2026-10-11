@@ -1,0 +1,8 @@
+{"id": "clip1", "title": "Team A vs Team B, U11", "date": "", "windowLabel": "8:32 to 11:32", "offsetSec": 512,
+ "teams": {"light": "Team A", "dark": "Team B"},
+ "video": "/Users/peter/Data/Claude/BasketVision/basketball-poc/_work/clip/game_0832-1132.webm",
+ "tracks_csv": "/Users/peter/Data/Claude/BasketVision/basketball-poc/baseline_tracks.csv",
+ "assign_json": "/Users/peter/Data/Claude/BasketVision/basketball-poc/final/clip1/assign_final.json",
+ "reads_csv": "/Users/peter/Data/Claude/BasketVision/basketball-poc/final/clip1/vlm_reads_merged.csv",
+ "attrs_csv": "/Users/peter/Data/Claude/BasketVision/basketball-poc/_work/attrs_all.csv",
+ "roster_json": "/Users/peter/Data/Claude/BasketVision/basketball-poc/final/roster_final.json"}

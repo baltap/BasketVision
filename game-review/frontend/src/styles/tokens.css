@@ -1,0 +1,42 @@
+/* Design tokens. Confidence is told apart by lightness and pattern, never hue alone. */
+:root {
+  --ground: #eef0f3;
+  --panel: #ffffff;
+  --ink: #111827;
+  --ink-2: #4b5565;
+  --ink-3: #6b7280;
+  --line: #d6dae1;
+  --line-strong: #b8bfcc;
+  --wash: #f3f4f6;
+
+  --blue: #1f4fd8;
+  --blue-soft: #7fa0f2;
+  --blue-wash: #e6edff;
+
+  --amber: #e8892b;
+  --amber-light: #ffd9ae;
+  --amber-wash: #fff1e0;
+  --amber-ink: #8a3b00;
+  --danger: #9a1b1b;
+
+  --wood: #cdb48c;
+  --jersey-light: #f4f2ec;
+  --jersey-dark: #1b1f27;
+
+  --font-ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-num: 'Barlow Condensed', 'IBM Plex Sans', sans-serif;
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 20px;
+  --s6: 24px;
+  --s8: 32px;
+
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 14px;
+
+  --stripe: repeating-linear-gradient(45deg, var(--amber), var(--amber) 5px, var(--amber-light) 5px, var(--amber-light) 10px);
+}

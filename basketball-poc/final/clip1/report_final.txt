@@ -1,0 +1,33 @@
+number reads: kept 496, dropped by crowd guard 305 (38%)
+roster rule: 69 number reads dropped (number not on that team's roster)
+tracklets: 149 | non-players removed: 7 | split on colour change: 5 | split on number change: 1 | mixed: 2
+conflict resolution: {'trimmed overlap frames': 328, 'duplicate pairs (same person, two boxes)': 3, 'demoted (equal evidence)': 2}
+attached unnumbered pieces: 0 | attachments vetoed by the piece's own contradicting reads: 0
+
+detections in total: 12861
+  anchored by number         8145   63.3%
+  attached                      0    0.0%
+  non-player (ref/adult)     1807   14.1%
+  mixed / conflicting         832    6.5%
+  unassigned                 2077   16.1%
+  named of PLAYER detections: 73.7%  (8145/11054)
+  unassigned pieces < 1 s    :  41 pieces,   125 detections (1.0%)
+  unassigned pieces 1 to 3 s :  21 pieces,   289 detections (2.2%)
+  unassigned pieces >= 3 s   :  28 pieces,  2495 detections (19.4%)
+  frames with a player assigned to two different people: 0
+
+players (team#number): named s | anchored s | attached s | pieces | first-last s
+  light#7     101.9 |  101.9 |    0.0 |   5 |     0-182
+  light#6      96.3 |   96.3 |    0.0 |  10 |     0-182
+  dark#7       86.2 |   86.2 |    0.0 |   5 |     3-87
+  light#8      85.2 |   85.2 |    0.0 |   6 |     0-182
+  dark#22      84.0 |   84.0 |    0.0 |   5 |     7-114
+  light#20     80.6 |   80.6 |    0.0 |   4 |     0-182
+  light#21     78.5 |   78.5 |    0.0 |   9 |     0-182
+  dark#99      66.0 |   66.0 |    0.0 |   4 |    38-182
+  dark#31      63.5 |   63.5 |    0.0 |   8 |     0-182
+  dark#26      38.0 |   38.0 |    0.0 |   4 |     0-41
+  dark#40      30.3 |   30.3 |    0.0 |   7 |    18-182
+  dark#23       4.0 |    4.0 |    0.0 |   1 |   112-116
+
+wrote /Users/peter/Data/Claude/basketball-poc/final/clip1/assign_final.json
