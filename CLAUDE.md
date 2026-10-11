@@ -15,9 +15,9 @@ Symlinks at `/Users/peter/Data/Claude/game-review` and `/Users/peter/Data/Claude
 
 ## Memory protocol
 
-The vault at `BasketVision/BasketVision` is the project memory. `CLAUDE_OBSIDIAN_VAULT` is set in `.claude/settings.json`.
+The vault is `/Users/peter/Data/Claude/BasketVision/BasketVision`: the folder `BasketVision` inside this repo root, which is also called `BasketVision`. Do not double or triple the name. `CLAUDE_OBSIDIAN_VAULT` is set in `.claude/settings.json`. Paths like `wiki/...` below are relative to the vault.
 
-1. **At the start of work**, read `BasketVision/wiki/hot.md` and `BasketVision/wiki/index.md`. Then read only the pages relevant to the task (start with `wiki/entities/BasketVision project.md`).
+1. **At the start of work**, read `/Users/peter/Data/Claude/BasketVision/BasketVision/wiki/hot.md` and `.../wiki/index.md`. Then read only the pages relevant to the task (start with `wiki/entities/BasketVision project.md`).
 2. **Before answering "what did we decide / measure / try"**, look it up in the vault (`/claude-obsidian:wiki-query`) instead of guessing. Numbers there cite sources in `wiki/meta/ledgers/`.
 3. **After finishing meaningful work**, persist durable findings: `/claude-obsidian:save` for a single insight or decision, `/claude-obsidian:wiki-ingest` for new source files placed in `BasketVision/inbox/`. Add dated rows to `wiki/concepts/Decision log.md` for decisions and update `wiki/hot.md` with active threads.
 4. **Never write vault pages with plain file edits.** The product applies changes as recoverable transactions; use its skills or `scripts/claude-obsidian.py` in the product checkout. Run `/claude-obsidian:wiki-lint` after larger changes.
