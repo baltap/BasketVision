@@ -25,6 +25,8 @@ The vault at `BasketVision/BasketVision` is the project memory. `CLAUDE_OBSIDIAN
 
 ## Development methodology (superpowers)
 
+**Self-check first:** this plugin only loads for a session *launched* in `/Users/peter/Data/Claude/BasketVision`. If your session context does not contain "You have superpowers" and no `superpowers:*` skills are listed (for example the session was launched in `/Users/peter/Data/Claude` and you changed directory), the methodology is NOT active. Say so to Peter plainly and ask him to start a new session with the folder `BasketVision`; do not imitate the flow by hand.
+
 The `superpowers` plugin (project scope) is the process layer; `agent-skills` is disabled for this project. Flow: brainstorming, written spec, git worktree, writing-plans, subagent-driven-development or executing-plans with test-driven-development, requesting-code-review, verification-before-completion, finishing-a-development-branch. Bugs go through systematic-debugging. Everything in this section overrides the skills' defaults.
 
 1. **Specs and plans are local only.** Save to `/Users/peter/Data/Claude/BasketVision/docs/superpowers/specs/` and `.../plans/` (the folder is gitignored, never `git add` it). From a worktree, refer to them by absolute path.
