@@ -7,6 +7,11 @@
 !/game-review/
 !/basketball-poc/
 
+# Local only by decision (2026-10-11): superpowers specs and plans, worktrees.
+# Already covered by /* above; listed so nobody whitelists them by mistake.
+/docs/
+/.worktrees/
+
 # ---- game-review: code and configs only
 /game-review/data/
 /game-review/**/node_modules/
