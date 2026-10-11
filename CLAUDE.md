@@ -26,6 +26,7 @@ The vault at `BasketVision/BasketVision` is the project memory. `CLAUDE_OBSIDIAN
 ## Hard rules
 
 - Never modify `game-review/data/games/*/corrections.json` or `events.json`: they hold Peter's real review answers. Checksum them before and after any change near them.
+- Git: repo root is this folder, remote `origin` is the **private** `baltap/BaksetVision`. `.gitignore` is a whitelist. Before every commit run `git diff --cached --name-only` and confirm no media, `data/`, `*.pt`, vault or `claude-obsidian` paths. Never `git add -f`. Do not make the repo public without re-checking history.
 - Footage and crops of children stay local. No uploads, no third-party compute, no sharing, no images of children in notes or sketches. See `wiki/concepts/Privacy and footage handling.md`.
 - Do not promise automatic per-player stats. The design is "CV proposes, human confirms".
 - Do not delete `basketball-poc/_work` or touch `~/.cache/huggingface`.
